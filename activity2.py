@@ -2,7 +2,7 @@ from random import choice
 from string import ascii_letters
 
 
-class guess:
+class Hangman:
     def __init__(self):
         self.words = {
                       'beach': 'Somewhere near an ocean',
@@ -26,7 +26,7 @@ class guess:
         self.lost = True
         self.amount_found_word = ''
         print("Welcome to guess game\n")
-        print("make sure you have 30 tries")
+        print("YES")
         hint = input('Would you like a hint?(y/n):')
         if hint == 'y':
             print(self.b)
@@ -49,9 +49,8 @@ class guess:
             print('You Won!!! Final Word:{}'.format(self.final_word))
 
 while True:
-    guess = guess()
-    guess.main()
+    hangman = Hangman()
+    hangman.main()
     restart = input('Again?(y/n):')
     if restart != 'y':
         break
-        
