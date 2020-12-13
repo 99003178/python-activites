@@ -1,15 +1,5 @@
-Check results
-=============
 
-
-
-Code
-=============
-from random import choice
-from string import ascii_letters
-
-
-class Hangman:
+       class Hangman:
     def __init__(self):
         self.words = {
                       'beach': 'Somewhere near an ocean',
@@ -61,3 +51,9 @@ while True:
     restart = input('Again?(y/n):')
     if restart != 'y':
         break
+
+
+class prt:
+    def func(self):
+        print("class inside class")
+object = temp object.main
