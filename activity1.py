@@ -38,4 +38,4 @@ else:
     # elif condition, just use else-
     print('Unlucky! The answer was,', word)
 print('\n')
-input('Press Enter to leave the program ')
+input('Press Enter to leave the program')
