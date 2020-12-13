@@ -1,22 +1,12 @@
 import re
-
-#Check if the string starts with "The" and ends with "Spain":
-
-txt = "The rain in Spain"
-x = re.search("^The.*Spain$", txt)'''
-import re
-
-#Replace all white-space characters with the digit "9":
-
 txt = "The rain in Spain"
 x = re.sub("\s", "9", txt)
 print(x)
-
-
 if x:
-  print("YES! We have a match!")
+    print("YES! We have a match!")
 else:
-  print("No match")
+    print("No match")
+
 
 class Hangman:
     def __init__(self):
@@ -75,17 +65,3 @@ while True:
 class prt:
     def func(self):
         print("class inside class")
-#object = temp 
-#object.main
-'''import re
-
-#Check if the string starts with "The" and ends with "Spain":
-
-txt = "The rain in Spain"
-x = re.search("^The.*Spain$", txt)
-
-if x:
-  print("YES! We have a match!")
-else:
-  print("No match")'''
-
